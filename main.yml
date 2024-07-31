@@ -1,0 +1,7 @@
+---
+- name: Ansible ACME
+  hosts: localhost
+  tasks:
+    - name: Run playbook roles
+      include_role:
+        name: ansible_acme

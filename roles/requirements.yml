@@ -1,0 +1,6 @@
+---
+roles:
+  - name: ansible_acme
+    src: https://github.com/Sapphire-Health/ansible_acme.git
+    scm: 'git'
+    version: origin/master
